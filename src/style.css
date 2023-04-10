@@ -5,7 +5,7 @@ body {
 }
 
 h1 {
-  color: #ffaaa5;
+  color: #a5e5ff;
   font-size: 50px;
   margin-bottom: 5px;
 }
@@ -13,37 +13,39 @@ h1 {
 h2 {
   font-size: 25px;
   margin-bottom: 5px;
+  color: #a5e8ff;
 }
 
 h3 {
   font-size: 20px;
   opacity: 0.7;
   text-transform: capitalize;
+  color: #a5e5ff;
 }
 
 hr {
   border: none;
-  height: 3px;
+  height: 6px;
   background: -webkit-gradient(
     linear,
     0 0,
     100% 0,
     from(transparent),
     to(transparent),
-    color-stop(50%, #ffaaa5)
+    color-stop(50%, #a5e8ff)
   );
   margin-bottom: 40px;
 }
 
 .card {
-  background-color: #fcf8f3;
+  background-color: #000000;
   display: block;
   margin: 20px auto;
   max-width: 750px;
 }
 
 .compass {
-  color: #ffaaa5;
+  color: #a5e8ff;
   font-size: 35px;
   position: relative;
   left: 5px;
@@ -59,7 +61,7 @@ hr {
 }
 
 .search-button {
-  background-color: #ffaaa5;
+  background-color: #a5e8ff;
   color: #fcf8f3;
   transition: all 150ms ease-in-out;
   width: 150px;
@@ -78,10 +80,11 @@ footer {
 
 .current-weather {
   margin-bottom: 40px;
+  color: #a5e8ff;
 }
 
 .temp-data {
-  color: #ffaaa5;
+  color: #a5e8ff;
   font-size: 45px;
   margin-top: 20px;
   margin-left: 30px;
@@ -96,12 +99,14 @@ footer {
 .weather-conditions {
   font-size: 13px;
   margin-top: 33px;
+  color: #a5e8ff;
 }
 
 .future-weather {
   font-size: 20px;
   margin-bottom: 10px;
   text-align: center;
+  color: #a5e8ff;
 }
 
 .night-temp {
