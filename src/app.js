@@ -76,7 +76,7 @@ searchCity("Toronto");
 //function convertToCelsius(event) {
 //  event.preventDefault();
 //  let currentTempValue = document.querySelector(".current-temp-value");
-//  currentTempValue.innerHTML = 21;
+//  currentTempValue.innerHTML = 17;
 //}
 
 //let celsiusTemp = document.querySelector("#celsius");
@@ -85,7 +85,7 @@ searchCity("Toronto");
 //function convertToFahrenheit(event) {
 //  event.preventDefault();
 //  let currentTempValue = document.querySelector(".current-temp-value");
-//  currentTempValue.innerHTML = 71;
+//  currentTempValue.innerHTML = 63;
 //}
 
 //let fahrenheitTemp = document.querySelector("#fahrenheit");
