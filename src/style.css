@@ -1,7 +1,8 @@
-body {
+.container {
   color: 3322ee;
   font-family: "Noto Serif JP", serif;
   background-size: 100%;
+  background-image: url("icons/background.jpg");
 }
 
 h1 {
