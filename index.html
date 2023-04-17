@@ -62,7 +62,7 @@
               <h2 id="date">Saturday 3:43pm</h2>
               <h3>Sunny</h3>
             </div>
-            <div class="col temp-data">
+            <div class="col-6 temp-data">
               <img
                 id="icon"
                 src="https://assets.msn.com/weathermapdata/1/static/weather/Icons/taskbar_v3/Condition_Card/SunnyDayV3.svg"
@@ -70,21 +70,23 @@
                 id="icon"
                 class="float-left"
               />
-    <div class="col float-left" id="current-temp-value">
-        <strong id="temperature">17</strong><span class="units"id=
-        "units"> <a href="#"id="celsius-link"class="active">°C</a>
-        | <a href="#" id="fahrenheit-link">℉</a></span>
-            </div>
-            
-            <div class="col weather-conditions">
-              Humidity: <span id="humidity">39</span>% <br />
-              Wind: <span id="wind">18</span> km/h
-            </div>
-          </div>
+              <div class="col-6 float-left" id="current-temp-value">
+                <strong id="temperature">17</strong
+                ><span class="units" id="units">
+                  <a href="#" id="celsius-link" class="active">°C</a> |
+                  <a href="#" id="fahrenheit-link">℉</a></span
+                >
+              </div>
 
-          <hr />
-           <div class="weather-forecast"id="forecast">
-  </div>
+              <div class="col-6 weather-conditions">
+                Humidity: <span id="humidity">39</span>% <br />
+                Wind: <span id="wind">18</span> km/h
+              </div>
+            </div>
+
+            <hr />
+            <div class="weather-forecast" id="forecast"></div>
+          </div>
         </div>
       </div>
     </div>
