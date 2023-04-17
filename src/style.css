@@ -1,4 +1,4 @@
-.container {
+body .container {
   color: 3322ee;
   font-family: "Noto Serif JP", serif;
   background-size: 100%;
@@ -63,7 +63,7 @@ hr {
 
 .search-button {
   background-color: #a5e8ff;
-  color: #fcf8f3;
+  color: #000000;
   transition: all 150ms ease-in-out;
   width: 150px;
 }
