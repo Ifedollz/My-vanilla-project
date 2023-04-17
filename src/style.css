@@ -1,8 +1,8 @@
-body .container {
+body {
   color: 3322ee;
   font-family: "Noto Serif JP", serif;
-  background-size: 100%;
-  background-image: url("icons/background.jpg");
+  background-size: 100% 100%;
+  background-image: url("../icons/background.jpg");
 }
 
 h1 {
@@ -69,6 +69,7 @@ hr {
 }
 footer {
   text-align: center;
+  color: rgb(241, 6, 175);
 }
 .search-button:hover {
   background-color: #fcf8f3;
