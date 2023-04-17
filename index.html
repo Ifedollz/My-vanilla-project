@@ -62,43 +62,29 @@
               <h2>Saturday 3:43pm</h2>
               <h3>Sunny</h3>
             </div>
-            <div class="col-3 temp-data" id="icon">
-              <i class="fa-solid fa-sun"></i>
-              <span id="current-temp-value">17</span>
-              <span class="temp-scale-selector"
-                >°C<!--<a href="#" id="fahrenheit">°F</a> |
-                <a href="#" id="celsius">°C</a>-->
-              </span>
+            <div class="col temp-data">
+              <img
+                id="icon"
+                src="https://assets.msn.com/weathermapdata/1/static/weather/Icons/taskbar_v3/Condition_Card/SunnyDayV3.svg"
+                alt="Clear"
+                id="icon"
+                class="float-left"
+              />
+    <div class="col float-left" id="current-temp-value">
+        <strong id="temperature">17</strong><div class="units"id=
+        "units"> <a href="#"id="celsius-link"class="active">°C</a>
+        | <a href="#" id="fahrenheit-link">℉</a></div>
             </div>
-            <div class="col-3 weather-conditions">
+            
+            <div class="col weather-conditions">
               Humidity: <span id="humidity">39</span>% <br />
               Wind: <span id="wind">18</span> km/h
             </div>
           </div>
 
           <hr />
-          <div class="row future-weather">
-            <div class="col">
-              Sun <br /><i class="fa-solid fa-cloud-sun"></i><br />
-              84°/<span class="night-temp">71°</span>
-            </div>
-            <div class="col">
-              Mon <br /><i class="fa-solid fa-cloud-showers-heavy"></i><br />
-              84°/<span class="night-temp">67°</span>
-            </div>
-            <div class="col">
-              Tue <br /><i class="fa-solid fa-cloud-sun"></i><br />
-              82°/<span class="night-temp">66°</span>
-            </div>
-            <div class="col">
-              Wed <br /><i class="fa-solid fa-cloud-sun"></i><br />
-              83°/<span class="night-temp">67°</span>
-            </div>
-            <div class="col">
-              Thu <br /><i class="fa-solid fa-cloud-sun"></i><br />
-              82°/<span class="night-temp">61°</span>
-            </div>
-          </div>
+           <div class="weather-forecast"id="forecast">
+  </div>
         </div>
       </div>
     </div>
