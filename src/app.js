@@ -35,6 +35,8 @@ let currentHumidity = document.querySelector("#humidity");
 let currentWind = document.querySelector("#wind");
 
 function updateLocationData(response) {
+  document.querySelector("#date").innerHTML = `${formatDate(response.data.dt)}`;
+  let h1 = document.querySelector("h1");
   h1.innerHTML = `${response.data.name}`;
   let temperature = Math.round(response.data.main.temp);
   currentTemperature.innerHTML = `${temperature}`;
