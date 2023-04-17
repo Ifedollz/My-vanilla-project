@@ -28,6 +28,7 @@ function formatDay(timestamp) {
 }
 
 let h1 = document.querySelector("h1");
+let h2 = document.querySelector("date");
 let h3 = document.querySelector("h3");
 let citySearchInput = document.querySelector("#city-search-input");
 let currentTemperature = document.querySelector("#current-temp-value");
@@ -35,7 +36,6 @@ let currentHumidity = document.querySelector("#humidity");
 let currentWind = document.querySelector("#wind");
 
 function updateLocationData(response) {
-  document.querySelector("#date").innerHTML = `${formatDate(response.data.dt)}`;
   let h1 = document.querySelector("h1");
   h1.innerHTML = `${response.data.name}`;
   let temperature = Math.round(response.data.main.temp);
@@ -46,6 +46,8 @@ function updateLocationData(response) {
   currentWind.innerHTML = `${wind}`;
   let weatherDescription = `${response.data.weather[0].description}`;
   h3.innerHTML = `${weatherDescription}`;
+  let date = document.querySelector("#date");
+  date.innerHTML = formatDate(response.data.dt);
   let icon = document.querySelector("#icon");
   icon.setAttribute(
     "src",
