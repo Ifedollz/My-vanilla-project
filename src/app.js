@@ -6,7 +6,7 @@ function formatDate(timestamp) {
     minutes = `0${minutes}`;
   }
   if (hours < 10) {
-    hour = `0${hours}`;
+    hours = `0${hours}`;
   }
   let days = [
     "Sunday",
@@ -47,7 +47,7 @@ function updateLocationData(response) {
   let weatherDescription = `${response.data.weather[0].description}`;
   h3.innerHTML = `${weatherDescription}`;
   let date = document.querySelector("#date");
-  date.innerHTML = formatDate(response.data.dt);
+  date.innerHTML = formatDate(response.data.dt * 1000);
   let icon = document.querySelector("#icon");
   icon.setAttribute(
     "src",
