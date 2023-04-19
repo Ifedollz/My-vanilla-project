@@ -31,7 +31,7 @@ let h1 = document.querySelector("h1");
 let h2 = document.querySelector("date");
 let h3 = document.querySelector("h3");
 let citySearchInput = document.querySelector("#city-search-input");
-let currentTemperature = document.querySelector("#current-temp-value");
+let currentTemperature = document.querySelector("#temperature");
 let currentHumidity = document.querySelector("#humidity");
 let currentWind = document.querySelector("#wind");
 
