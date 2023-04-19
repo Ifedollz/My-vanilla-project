@@ -96,7 +96,7 @@ footer {
   height: 64px;
   width: 64px;
 }
-#units {
+.units {
   position: relative;
   font-size: 16px;
   top: -34px;
@@ -125,7 +125,16 @@ footer {
   text-align: center;
   color: #a5e8ff;
 }
+.float-left strong {
+  color: #a5e8ff;
+  font-size: 64px;
+  line-height: 1;
+  font-weight: 400px;
+}
 
 .night-temp {
   opacity: 0.7;
+}
+.min-temp {
+  opacity: 0.5;
 }
